@@ -16,8 +16,8 @@ namespace CRUDWebApp.Models
             //AddListMembersListRequest req = new AddListMembersListRequest();
             IOrganizationService organizationService = null;
             ClientCredentials clientCredentials = new ClientCredentials();
-            clientCredentials.UserName.UserName = "raghav.khadka@hlol.onmicrosoft.com";
-            clientCredentials.UserName.Password = "Youtube.year.2020";
+            clientCredentials.UserName.UserName = "<Your Dynamics 365 Username";
+            clientCredentials.UserName.Password = "<Your Dynamics 365 Password";
 
             // For Dynamics 365 Customer Engagement V9.X, set Security Protocol as TLS12
             ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12;
