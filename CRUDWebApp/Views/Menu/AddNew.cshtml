@@ -1,0 +1,76 @@
+﻿@model CRUDWebApp.Models.Menu
+@{
+    ViewBag.Title = "Add New";
+}
+
+
+<h2>AddNew</h2>
+
+@using (Html.BeginForm())
+{
+
+    <table>
+
+        <tr>
+
+            <td>
+
+                <table>
+
+                    <tr>
+
+                        <td width="150px">Item Name</td>
+
+
+                        <td>
+                            @Html.HiddenFor(m => m.ItemID)
+                            @Html.EditorFor(m => m.ItemName)
+                        </td>
+
+                    </tr>
+
+
+                    <tr>
+
+                        <td width="150px">Item Price</td>
+
+
+                        <td>
+                            @Html.EditorFor(m => m.ItemPrice, new { htmlAttributes = new { @class = "form-control" } } )
+                            @Html.ValidationMessageFor(m => m.ItemPrice, "", new { @class = "text-danger" })
+                        </td>
+
+                    </tr>
+
+
+
+
+
+
+
+
+                    <tr>
+
+                        <td></td>
+
+
+                        <td>
+                            <input type="submit" value="Save" />
+
+                        </td>
+
+                        @Html.ActionLink("Back to List", "Index")
+                    </tr>
+
+                </table>
+
+            </td>
+
+        </tr>
+
+    </table>
+
+   
+
+
+}

@@ -1,0 +1,11 @@
+C:\Users\Raghav\Documents\Visual Studio 2015\Projects\CRUDWebApp\CRUDWebApp\MyProjectPlugins\bin\Debug\MyProjectPlugins.dll
+C:\Users\Raghav\Documents\Visual Studio 2015\Projects\CRUDWebApp\CRUDWebApp\MyProjectPlugins\bin\Debug\MyProjectPlugins.pdb
+C:\Users\Raghav\Documents\Visual Studio 2015\Projects\CRUDWebApp\CRUDWebApp\MyProjectPlugins\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll
+C:\Users\Raghav\Documents\Visual Studio 2015\Projects\CRUDWebApp\CRUDWebApp\MyProjectPlugins\bin\Debug\Microsoft.Xrm.Sdk.dll
+C:\Users\Raghav\Documents\Visual Studio 2015\Projects\CRUDWebApp\CRUDWebApp\MyProjectPlugins\bin\Debug\Microsoft.Xrm.Sdk.Workflow.dll
+C:\Users\Raghav\Documents\Visual Studio 2015\Projects\CRUDWebApp\CRUDWebApp\MyProjectPlugins\bin\Debug\Microsoft.Crm.Sdk.Proxy.xml
+C:\Users\Raghav\Documents\Visual Studio 2015\Projects\CRUDWebApp\CRUDWebApp\MyProjectPlugins\bin\Debug\Microsoft.Xrm.Sdk.xml
+C:\Users\Raghav\Documents\Visual Studio 2015\Projects\CRUDWebApp\CRUDWebApp\MyProjectPlugins\bin\Debug\Microsoft.Xrm.Sdk.Workflow.xml
+C:\Users\Raghav\Documents\Visual Studio 2015\Projects\CRUDWebApp\CRUDWebApp\MyProjectPlugins\obj\Debug\MyProjectPlugins.csprojResolveAssemblyReference.cache
+C:\Users\Raghav\Documents\Visual Studio 2015\Projects\CRUDWebApp\CRUDWebApp\MyProjectPlugins\obj\Debug\MyProjectPlugins.dll
+C:\Users\Raghav\Documents\Visual Studio 2015\Projects\CRUDWebApp\CRUDWebApp\MyProjectPlugins\obj\Debug\MyProjectPlugins.pdb

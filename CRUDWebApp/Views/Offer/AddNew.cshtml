@@ -1,0 +1,70 @@
+﻿@model CRUDWebApp.Models.Offer
+@{
+    ViewBag.Title = "Add New";
+}
+
+
+<h2>AddNew</h2>
+
+@using (Html.BeginForm())
+{
+
+    <table>
+
+        <tr>
+
+            <td>
+
+                <table>
+
+                    <tr>
+
+                        <td width="150px">Offer Name</td>
+
+
+                        <td>
+                            @Html.HiddenFor(m => m.OfferID)
+                            @Html.EditorFor(m => m.OfferName)
+                        </td>
+
+                    </tr>
+                    <tr>
+
+                        <td width="150px">Menu Items</td>
+
+
+                        <td>
+                            @Html.DropDownListFor(model => model.MenuItem.Id, (SelectList)ViewBag.EntityReferenceUsers)
+                        </td>
+
+                    </tr>
+
+
+
+
+
+
+
+
+                    <tr>
+
+                        <td></td>
+
+
+                        <td>
+                            <input type="submit" value="Save" />
+
+                        </td>
+
+                        @Html.ActionLink("Back to List", "Index")
+                    </tr>
+
+                </table>
+
+            </td>
+
+        </tr>
+
+    </table>
+
+}

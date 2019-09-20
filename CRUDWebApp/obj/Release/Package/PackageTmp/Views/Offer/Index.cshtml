@@ -1,0 +1,101 @@
+﻿@model CRUDWebApp.Models.Offer
+
+@{
+    ViewBag.Title = "Index";
+    //Layout = "~/Views/Home/Index.cshtml";
+}
+
+<h2>Index</h2>
+
+<div class="row">
+    <div class="col-md-12">
+        <table class="">
+
+            <tr>
+                <a href="~/Offer/AddNew">Add New </a>
+            </tr>
+
+
+            <tr>
+
+                <td>
+
+                    <table border="0" cellpadding="4" cellspacing="1" bgcolor="#D8D8D8" class="table table-bordered table-responsive">
+
+                        <tr>
+
+                            <td width="100" align="center" class="header_bg">
+
+                                Offer Name
+
+                            </td>
+                            <td width="100" align="center" class="header_bg">
+
+                                Menu Item
+
+                            </td>
+
+                            <td width="400" align="center" class="header_bg">Action</td>
+
+                        </tr>
+
+
+                        @{
+                            string COLOR1 = "#ffffff";
+                            string COLOR2 = "#f1f1f1";
+                            string bgcolor = "#ffffff";
+                        }
+
+                        @foreach (var x in ViewBag.offerinfo)
+                        {
+                            bgcolor = bgcolor == COLOR1 ? COLOR2 : COLOR1;
+
+
+                            <tr bgcolor="@bgcolor">
+
+
+                                <td>
+                                    @x.OfferName
+                                </td>
+
+                                <td>
+                                    @x.MenuItemName
+                                </td>
+
+
+
+                                <td>
+                                    <a href="~/Offer/Delete/@x.OfferID">Delete Offer </a>
+                                    &nbsp;&nbsp;
+                                    <a href="~/Offer/AddNew/@x.OfferID">Edit Offer </a>
+                                </td>
+
+                            </tr>
+
+                        }
+                    </table>
+
+                </td>
+
+            </tr>
+
+        </table>
+        @*<h2>Getting started</h2>
+                <p>
+                    ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
+                    enables a clean separation of concerns and gives you full control over markup
+                    for enjoyable, agile development.
+                </p>
+                <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
+            </div>
+            <div class="col-md-4">
+                <h2>Get more libraries</h2>
+                <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
+                <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
+            </div>
+            <div class="col-md-4">
+                <h2>Web Hosting</h2>
+                <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
+                <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>*@
+    </div>
+</div>
