@@ -9,3 +9,5 @@ The project is hosted in Azure. Link : http://spiceofindia.azurewebsites.net/
 ![Login Page](https://res.cloudinary.com/dh18h6lff/image/upload/v1568989061/1.png)
 
 ![Home Page](https://res.cloudinary.com/dh18h6lff/image/upload/v1568989069/2.png)
+
+![Dynamics 365 Page](https://res.cloudinary.com/dh18h6lff/image/upload/v1568989613/3.png)
